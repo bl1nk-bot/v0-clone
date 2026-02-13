@@ -65,6 +65,7 @@ This project uses PostgreSQL with Drizzle ORM. Set up your database:
    ```
 
 3. **Optional - Open Database Studio**:
+
    ```bash
    pnpm db:studio
    ```
@@ -122,14 +123,14 @@ This v0 clone includes:
 
 ### Using the App
 
-4. **Anonymous Usage**: Visit the homepage and start creating chats immediately (3 chats/day limit)
-5. **Guest Access**: Register as a guest for persistent sessions (5 chats/day limit)
-6. **Full Account**: Create a permanent account for higher limits (50 chats/day)
-7. Use the "Streaming" toggle in the header to enable/disable real-time streaming responses
-8. Enter a prompt describing the app you want to build
-9. Watch as v0 generates your app in real-time in the preview panel
-10. Continue the conversation to iterate and improve your app
-11. Authenticated users' chats are automatically saved and associated with their account
+1. **Anonymous Usage**: Visit the homepage and start creating chats immediately (3 chats/day limit)
+2. **Guest Access**: Register as a guest for persistent sessions (5 chats/day limit)
+3. **Full Account**: Create a permanent account for higher limits (50 chats/day)
+4. Use the "Streaming" toggle in the header to enable/disable real-time streaming responses
+5. Enter a prompt describing the app you want to build
+6. Watch as v0 generates your app in real-time in the preview panel
+7. Continue the conversation to iterate and improve your app
+8. Authenticated users' chats are automatically saved and associated with their account
 
 ## Architecture
 
